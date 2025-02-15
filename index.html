@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS wants to know your location? Heart's location!!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Quicksand:wght@500&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>VS wants to know your location? Heart's location!!</h1>
+    <div class="container">
+        <div class="component" id="resistor" data-tooltip="Resistor">
+            <div class="resistor-stick"></div>
+            <div class="resistor-stick-line"></div>
+            <div class="hover-text">Resistor: I am your resistance to not see other guys!</div>
+            <div class="pulse-wave"></div>
+        </div>
+
+        <div class="component" id="capacitor" data-tooltip="Capacitor">
+            <div class="capacitor-stick"></div>
+            <div class="capacitor-stick-line"></div>
+            <div class="hover-text">Capacitor: I store your Positivity!</div>
+            <div class="pulse-wave"></div>
+        </div>
+
+        <div class="component" id="led" data-tooltip="LED">
+            <div class="led-stick"></div>
+            <div class="hover-text">Inductor: I am your Magnetic Field who pull you!</div>
+            <div class="pulse-wave"></div>
+        </div>
+
+        <div class="component" id="inductor" data-tooltip="Inductor">
+            <div class="inductor-stick"></div>
+            <div class="hover-text">LED: You Bright me UP!</div>
+            <div class="pulse-wave"></div>
+        </div>
+    </div>
+
+    <div class="yes-container">
+        <svg class="yes-outline" viewBox="0 0 500 150">
+            <text id="yes-text" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">
+                Is it YES?
+            </text>
+        </svg>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
